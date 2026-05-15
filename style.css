@@ -1,0 +1,23 @@
+body {
+  background-color: bisque;
+}
+
+.buttons {
+  border: 2px solid red;
+  width: 40%;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.number-container {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.number-container div {
+  display: flex;
+  gap: 10px;
+}
